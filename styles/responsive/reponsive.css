@@ -5,12 +5,19 @@
     width: 90%;
     height: 85%;
   }
-
-  section.itens {
-  }
-
   #link > a {
     width: 350px;
     height: 40px;
+  }
+}
+
+/* laptop */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  main.container {
+    width: 50%;
+    border: 5px solid white;
+  }
+  #link > a {
+    height: 30px;
   }
 }
