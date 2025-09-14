@@ -17,14 +17,14 @@ body {
 }
 
 #link > a:hover {
-  animation: vibrar 1s linear;
+  animation: scale 1s linear;
 }
 
 #link > a:active {
   color: black;
 }
 
-@keyframes vibrar {
+@keyframes scale {
   0% {
     transform: scale(1);
   }
